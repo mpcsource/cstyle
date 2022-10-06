@@ -1,3 +1,5 @@
-h1 {
-    color: blue;
+@for $i from 1 through 10 {
+    .text-blue-#{$i*10} {
+        color: rgb(0, 0, calc(255*(#{$i/10})))
+    }
 }
