@@ -1,0 +1,18 @@
+$g2: (
+    "",
+    "-top",
+    "-left",
+    "-bottom",
+    "-right"
+);
+
+@for $num from 1 through 5 {
+    @each $dir in $g2 {
+        .pd#{$dir}-#{$num} {
+            padding#{$dir}: calc(1vw*(#{$num*0.2}));;
+        }
+        .mg#{$dir}-#{$num} {
+            margin#{$dir}: calc(1vw*(#{$num*0.2}));;
+        }
+    }
+}

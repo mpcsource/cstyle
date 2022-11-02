@@ -1,0 +1,76 @@
+/*Applicable to all*/
+.navtitle > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navitem > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Not-centered specific*/
+.navdiv {
+  /*General*/
+  width: 100%;
+  display: grid;
+  grid-template-areas: "brand options";
+}
+
+.navdiv > .navtitle {
+  grid-area: brand;
+  text-align: start;
+}
+
+.navdiv > .navitem-cont {
+  grid-area: options;
+  text-align: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navdiv > .navitem-cont > .navitem {
+  width: 100%;
+  color: inherit;
+  float: right;
+  flex: 0;
+  margin-left: 10px;
+}
+
+/*Centered specific*/
+.navdiv-center {
+  /*General*/
+  width: 100%;
+  display: grid;
+  grid-template-areas: "brand" "bot";
+  text-align: center;
+}
+
+.navdiv-center > .navtitle {
+  /*Centered Brand*/
+  grid-area: brand;
+}
+
+.navdiv-center > .navitem-cont > .navitem {
+  /*Centered Items*/
+  grid-area: bot;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+/*Title sizes*/
+.navdiv > .navtitle.sm, .navdiv-center > .navtitle.sm {
+  font-size: 20px;
+}
+
+.navdiv > .navtitle.md, .navdiv-center > .navtitle.md {
+  font-size: 30px;
+}
+
+.navdiv > .navtitle.lg, .navdiv-center > .navtitle.lg {
+  font-size: 40px;
+}/*# sourceMappingURL=navbars.css.map */

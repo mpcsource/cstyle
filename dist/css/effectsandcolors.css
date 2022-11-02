@@ -1,0 +1,148 @@
+/*Background Colors*/
+.bg-default {
+  background-color: whitesmoke;
+}
+
+.bg-error {
+  background-color: #Ef233C;
+}
+
+.bg-alarm {
+  background-color: #F4A261;
+}
+
+.bg-link {
+  background-color: #0077B6;
+}
+
+.bg-moon {
+  background-color: #2B2D42;
+}
+
+.bg-dark {
+  background-color: #252422;
+}
+
+.bg-gray1 {
+  background-color: #CCC5B9;
+}
+
+.bg-gray2 {
+  background-color: #403D39;
+}
+
+/*Main Text Colors*/
+.color-default {
+  color: whitesmoke;
+}
+
+.color-error {
+  color: #Ef233C;
+}
+
+.color-alarm {
+  color: #F4A261;
+}
+
+.color-link {
+  color: #0077B6;
+}
+
+.color-moon {
+  color: #2B2D42;
+}
+
+.color-dark {
+  color: #252422;
+}
+
+/*Secondary Text Colors*/
+.color-gray1 {
+  color: #CCC5B9;
+}
+
+.color-gray2 {
+  color: #403D39;
+}
+
+/*Text Shadow*/
+.textshadow-1 {
+  text-shadow: 1px 1px calc(1px * (1*2)) black;
+}
+
+.textshadow-2 {
+  text-shadow: 1px 1px calc(1px * (2*2)) black;
+}
+
+.textshadow-3 {
+  text-shadow: 1px 1px calc(1px * (3*2)) black;
+}
+
+.textshadow-4 {
+  text-shadow: 1px 1px calc(1px * (4*2)) black;
+}
+
+.textshadow-5 {
+  text-shadow: 1px 1px calc(1px * (5*2)) black;
+}
+
+.textshadow-6 {
+  text-shadow: 1px 1px calc(1px * (6*2)) black;
+}
+
+.textshadow-7 {
+  text-shadow: 1px 1px calc(1px * (7*2)) black;
+}
+
+.textshadow-8 {
+  text-shadow: 1px 1px calc(1px * (8*2)) black;
+}
+
+.textshadow-9 {
+  text-shadow: 1px 1px calc(1px * (9*2)) black;
+}
+
+.textshadow-10 {
+  text-shadow: 1px 1px calc(1px * (10*2)) black;
+}
+
+/*Box Shadow*/
+.boxshadow-1 {
+  box-shadow: 0px 0px calc(1px * (1*2)) black;
+}
+
+.boxshadow-2 {
+  box-shadow: 0px 0px calc(1px * (2*2)) black;
+}
+
+.boxshadow-3 {
+  box-shadow: 0px 0px calc(1px * (3*2)) black;
+}
+
+.boxshadow-4 {
+  box-shadow: 0px 0px calc(1px * (4*2)) black;
+}
+
+.boxshadow-5 {
+  box-shadow: 0px 0px calc(1px * (5*2)) black;
+}
+
+.boxshadow-6 {
+  box-shadow: 0px 0px calc(1px * (6*2)) black;
+}
+
+.boxshadow-7 {
+  box-shadow: 0px 0px calc(1px * (7*2)) black;
+}
+
+.boxshadow-8 {
+  box-shadow: 0px 0px calc(1px * (8*2)) black;
+}
+
+.boxshadow-9 {
+  box-shadow: 0px 0px calc(1px * (9*2)) black;
+}
+
+.boxshadow-10 {
+  box-shadow: 0px 0px calc(1px * (10*2)) black;
+}/*# sourceMappingURL=effectsandcolors.css.map */

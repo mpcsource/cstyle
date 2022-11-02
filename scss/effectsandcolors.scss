@@ -1,0 +1,41 @@
+@use "./variables.scss" as *;
+
+
+/*Background Colors*/
+@each $name, $color in $maincolors {
+    .bg-#{$name} {
+        background-color: $color;
+    }
+}
+@each $name, $color in $secondarycolors {
+    .bg-#{$name} {
+        background-color: $color;
+    }
+}
+
+/*Main Text Colors*/
+@each $name, $color in $maincolors {
+    .color-#{$name} {
+        color: $color;
+    }
+}
+/*Secondary Text Colors*/
+@each $name, $color in $secondarycolors {
+    .color-#{$name} {
+        color: $color;
+    }
+}
+
+/*Text Shadow*/
+@for $i from 1 through 10 {
+    .textshadow-#{$i} {
+        text-shadow: 1px 1px calc(1px*(#{$i}*2)) black;
+    }
+}
+
+/*Box Shadow*/
+@for $i from 1 through 10 {
+    .boxshadow-#{$i} {
+        box-shadow: 0px 0px calc(1px*(#{$i}*2)) black;
+    }
+}
