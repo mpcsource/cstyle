@@ -28,14 +28,21 @@
 
 /*Text Shadow*/
 @for $i from 1 through 10 {
-    .textshadow-#{$i} {
-        text-shadow: 1px 1px calc(1px*(#{$i}*2)) black;
+    @each $name, $color in $maincolors {
+        .textshadow-#{$name}-#{$i} {
+            text-shadow: 1px 1px calc(1px*(#{$i}*2)) $color;
+        }
+        .boxshadow-#{$name}-#{$i} {
+            box-shadow: 0px 0px calc(1px*(#{$i}*2)) $color;
+        } 
     }
-}
-
-/*Box Shadow*/
-@for $i from 1 through 10 {
-    .boxshadow-#{$i} {
-        box-shadow: 0px 0px calc(1px*(#{$i}*2)) black;
+    @each $name, $color in $secondarycolors {
+        .textshadow-#{$name}-#{$i} {
+            text-shadow: 1px 1px calc(1px*(#{$i}*2)) $color;
+        }
+        .boxshadow-#{$name}-#{$i} {
+            box-shadow: 0px 0px calc(1px*(#{$i}*2)) $color;
+        } 
     }
+    
 }

@@ -6,6 +6,8 @@ $g2: (
     "-right"
 );
 
+
+
 @for $num from 1 through 5 {
     @each $dir in $g2 {
         .pd#{$dir}-#{$num} {
