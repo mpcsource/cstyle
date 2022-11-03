@@ -1,0 +1,26 @@
+.cardcont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.cardcont .cardtitle {
+  font-size: 10vh;
+}
+.cardcont .cardimg {
+  font-size: 1vh;
+}
+.cardcont .cardtext {
+  font-size: 3vh;
+}
+.cardcont .cardtext.lg {
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+}
+.cardcont .cardtext.md {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+.cardcont .cardtext.sm {
+  margin-left: 25%;
+  margin-right: 25%;
+}/*# sourceMappingURL=cards.css.map */

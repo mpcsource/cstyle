@@ -196,4 +196,10 @@
 
 .mg-right-5 {
   margin-right: calc(1vw * (1));
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=containersandspace.css.map */
