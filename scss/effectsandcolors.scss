@@ -46,3 +46,10 @@
     }
     
 }
+
+/*Image opacity*/
+@for $i from 1 through 5 {
+    .opacity#{$i} {
+        opacity: calc(#{$i}*0.2);
+    }
+}
