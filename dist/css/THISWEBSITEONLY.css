@@ -7,4 +7,10 @@
 
 .hero-exclusive {
   position: static;
+}
+
+.card-exclusive {
+  background-image: url("../images/card2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=THISWEBSITEONLY.css.map */

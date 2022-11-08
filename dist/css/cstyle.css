@@ -1,10 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"); /*Applicable to all*/
-.navtitle > a {
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Applicable to all*/
+a {
   text-decoration: none;
   color: inherit;
 }
 
-.navitem > a {
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -1137,7 +1148,7 @@
 }
 .hero .herobutton {
   font-size: 3vh;
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
   font-weight: 300;
   cursor: pointer;
@@ -1170,11 +1181,8 @@
   margin-right: 25%;
 }
 
-/*1. GENERAL*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+main {
+  z-index: 100;
 }
 
 /*4. CONTAINERS*/

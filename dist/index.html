@@ -13,17 +13,17 @@
 </head>
 <body>
     <!-- Navbar -->
-    <div class="cont boxshadow-black-10 absolute opacity4">
-        <div class="navdiv-center bg-gray2">
-            <div class="navtitle lg mg-bottom-5 mg-top-3 textshadow-black-10 color-default">
-                <a href="#"><span class="color-error">.</span>CStyle</a>
+    <div class="cont">
+        <div class="navdiv-center bg-gray2 fixed boxshadow-moon-10 opacity4">
+            <div class="navtitle lg mg-bottom-3 mg-top-2 textshadow-black-10 color-default">
+                <a href="#hero"><span class="color-error">♪</span>&nbsp;Melody</a>
             </div>
-            <div class="navitem-cont mg-bottom-5 color-default textshadow-black-10">
+            <div class="navitem-cont mg-bottom-3 color-default textshadow-black-10">
                 <div class="navitem">
-                    <a href="#">Home</a>
+                    <a href="#hero">Hero</a>
                 </div>
                 <div class="navitem">
-                    <a href="#">Support</a>
+                    <a href="#card">Cards</a>
                 </div>
                 <div class="navitem">
                     <a href="#">About</a>
@@ -31,23 +31,46 @@
             </div>
         </div>
     </div>
-
-    <!-- Hero -->
-    <div class="cont static">
-        <div class="hero bg-exclusive textshadow-default-10">
-            <div class="herotitle color-default">HERO TEXT</div>
-            <div class="herosub color-default">Hero subtext.</div>
-            <button class="herobutton bg-dark color-default boxshadow-default-2 mg-top-5 textshadow-default-2 pd-3">OPTIONS</button>
+    <main>
+        <!-- Hero -->
+        <div class="cont static" id="hero">
+            <div class="hero bg-exclusive textshadow-default-10 boxshadow-moon-5">
+                <div class="herotitle color-default">HERO TEXT</div>
+                <div class="herosub color-default">Hero subtext.</div>
+                <button class="herobutton bg-dark color-default boxshadow-default-2 mg-top-5 textshadow-default-2 pd-3"><a href="#card">OPTIONS</a></button>
+                
+                <div class="bg-default mg-top-5">
+                </div>
+            </div>
         </div>
-    </div>
+        
 
-    <!-- First card -->
-    <div class="cont bg-gray1 relative">
-        <div class="cardcont mg-left-5 mg-right-5 color-default textshadow-dark-4">
-            <h1 class="cardtitle mg-top-5">Amazing Card Title</h1>
-            <h3 class="cardtext sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus culpa consequatur voluptatem ullam expedita velit quas quos aliquid incidunt, consequuntur atque totam? Dignissimos harum laudantium fugiat ipsam. Officiis illum odit hic nulla veniam pariatur suscipit eos repellat aperiam laudantium rerum nam tenetur quisquam consectetur, eum veritatis in ratione accusamus exercitationem.</h3>
-            <img class="cardimg center boxshadow-dark-5 mg-5" src="./images/first.jpg" width="25%" height="25%" alt="first image">
+        
+
+        <div class="cont">
+            <div class="cardcont mg-5">
+                <div class="cardtext center" style="text-align: start;">
+                    
+                    &lt;div class="cont"&gt;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="hero"&gt;
+                            <div class="herotitle"></div>
+                            <div class="herosub"></div>
+                            <button class="herobutton"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-    </div>
+    
+        <!-- First card -->
+        <div class="cont static" id="card">
+            <div class="cardcont color-default textshadow-dark-4 bg-moon card-exclusive boxshadow-moon-5">
+                <h1 class="cardtitle mg-top-5">Amazing Card Title</h1>
+                <h3 class="cardtext sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus culpa consequatur voluptatem ullam expedita velit quas quos aliquid incidunt, consequuntur atque totam? Dignissimos harum laudantium fugiat ipsam. Officiis illum odit hic nulla veniam pariatur suscipit eos repellat aperiam laudantium rerum nam tenetur quisquam consectetur, eum veritatis in ratione accusamus exercitationem.</h3>
+                <img class="cardimg center boxshadow-dark-5 mg-5" src="./images/first.jpg" width="25%" height="25%" alt="first image">
+            </div>
+        </div>
+    </main>
 </body>
 </html>

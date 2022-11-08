@@ -1,17 +1,15 @@
+@use "./general.scss";
 @use "./navbars.scss";
 @use "./positions.scss";
 @use "./effectsandcolors.scss";
 @use "./containersandspace.scss";
 @use "./hero.scss";
 @use "./cards.scss";
-/*1. GENERAL*/
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+main {
+    z-index: 100;
 }
-
-
 
 /*4. CONTAINERS*/
 .cont {

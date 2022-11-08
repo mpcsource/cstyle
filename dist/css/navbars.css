@@ -1,10 +1,10 @@
 /*Applicable to all*/
-.navtitle > a {
+a {
   text-decoration: none;
   color: inherit;
 }
 
-.navitem > a {
+a {
   text-decoration: none;
   color: inherit;
 }
